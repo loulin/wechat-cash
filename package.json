@@ -1,0 +1,37 @@
+{
+  "name": "wechat-cash",
+  "version": "0.0.1",
+  "description": "Wechat cash Node.js SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loulin/wechat-cash"
+  },
+  "keywords": [
+    "wechat",
+    "cash",
+    "coupon",
+    "redpack",
+    "微信红包"
+  ],
+  "author": "Lin Lou <lin.lou@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loulin/wechat-cash/issues"
+  },
+  "homepage": "https://github.com/loulin/wechat-cash",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "wechat-pay": "^0.2.0",
+    "xml2js": "^0.4.12"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "mocha-jshint": "^2.2.3",
+    "sinon": "^1.15.4"
+  }
+}
