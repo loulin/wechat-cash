@@ -29,4 +29,18 @@ cash.sendRedpack({
 }, function(err, result) {
   console.log(err, result);
 });
+
+cash.sendGroupRedpack({
+  'mch_billno': config.mchId + '201509230123456789',
+  'wxappid': config.appId,
+  'send_name': 'lodejs.org',
+  're_openid': 'o-hVKuNknQQBZFDlbE8eibQzIX8o',
+  'total_amount': 10000, //RMB100
+  'total_num': 3,
+  'wishing': '恭喜发财',
+  'act_name': '裂变红包',
+  'remark': '打赏QQ:5794560'
+}, function(err, result) {
+  console.log(err, result);
+});
 ```
