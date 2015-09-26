@@ -1,6 +1,6 @@
 {
   "name": "wechat-cash",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Wechat cash Node.js SDK",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
   "dependencies": {
     "lodash": "^3.10.1",
     "wechat-pay": "^0.2.0",
+    "wechat-signature": "^0.0.1",
     "xml2js": "^0.4.12"
   },
   "devDependencies": {
