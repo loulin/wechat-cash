@@ -1,6 +1,6 @@
 {
   "name": "wechat-cash",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Wechat cash Node.js SDK",
   "main": "index.js",
   "scripts": {
